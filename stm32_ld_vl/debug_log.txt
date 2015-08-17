@@ -1,0 +1,17 @@
+[0.335]  STM32_AppReset():  NVIC_DFSR_REG	= 0x00000009
+[0.347]  STM32_AppReset():  NVIC_CFGFSR_REG	= 0x00000000
+[0.356]  STM32_InitDevice():  ST_LINK Major version =1 Jtag version =12
+[0.356]  STM32_InitDevice():  ST_LINK VID=1155 PID=14148
+[0.359]  STM32_InitDevice():  ST_LINK device status: HALT_MODE
+[0.395]  stm32_reset_hw_wtchpt_module():  Hardware watchpoint supported by the target 
+[0.443]  create_stm32_flash_device():  FuncEntry
+[0.449]  create_stm32_flash_device():  STM32 device: id =10016420 
+[0.455]  create_stm32_flash_device():  STM32 device: Flash size =128
+[0.455]  create_stm32_flash_device():  FuncExit
+[0.455]  read_option_bytes():  FuncEntry
+[0.503]  read_option_bytes():  FuncExit
+[0.503]  main():  Start Logging
+[0.510]  Socket_InitInterface():  bind() failed.
+[0.510]  Socket_WaitForNewConnection():  Waiting for client to connect on port 61234 ...
+[0.510]  Socket_WaitForNewConnection():  accept failed: 10093
+[0.510]  main():  Error while waiting for new client connection.

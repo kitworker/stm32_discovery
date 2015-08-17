@@ -1,0 +1,30 @@
+
+**** Build of configuration Debug for project stm32_ld_vl ****
+
+cs-make all 
+Building file: ../lcd3310/lcd3310.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="lcd3310/lcd3310.o.lst" -c -fmessage-length=0 -MMD -MP -MF"lcd3310/lcd3310.d" -MT"lcd3310/lcd3310.d" -mcpu=cortex-m3 -mthumb -g3 -o "lcd3310/lcd3310.o" "../lcd3310/lcd3310.c"
+Finished building: ../lcd3310/lcd3310.c
+ 
+Building target: stm32_ld_vl.elf
+Invoking: ARM Sourcery Windows GCC C Linker
+arm-none-eabi-gcc -T"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS\stm32f100c4.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"stm32_ld_vl.map" -mcpu=cortex-m3 -mthumb -g3 -o "stm32_ld_vl.elf"  ./lcd3310/lcd3310.o  ./SPL/src/misc.o ./SPL/src/stm32f10x_adc.o ./SPL/src/stm32f10x_bkp.o ./SPL/src/stm32f10x_can.o ./SPL/src/stm32f10x_cec.o ./SPL/src/stm32f10x_crc.o ./SPL/src/stm32f10x_dac.o ./SPL/src/stm32f10x_dbgmcu.o ./SPL/src/stm32f10x_dma.o ./SPL/src/stm32f10x_exti.o ./SPL/src/stm32f10x_flash.o ./SPL/src/stm32f10x_fsmc.o ./SPL/src/stm32f10x_gpio.o ./SPL/src/stm32f10x_i2c.o ./SPL/src/stm32f10x_iwdg.o ./SPL/src/stm32f10x_pwr.o ./SPL/src/stm32f10x_rcc.o ./SPL/src/stm32f10x_rtc.o ./SPL/src/stm32f10x_sdio.o ./SPL/src/stm32f10x_spi.o ./SPL/src/stm32f10x_tim.o ./SPL/src/stm32f10x_usart.o ./SPL/src/stm32f10x_wwdg.o  ./CMSIS/core_cm3.o ./CMSIS/startup_stm32f10x_ld_vl.o ./CMSIS/system_stm32f10x.o  ./main.o   
+Finished building target: stm32_ld_vl.elf
+ 
+Invoking: ARM Sourcery Windows GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "stm32_ld_vl.elf"  "stm32_ld_vl.hex"
+Finished building: stm32_ld_vl.hex
+ 
+Invoking: ARM Sourcery Windows GNU Create Listing
+arm-none-eabi-objdump -h -S "stm32_ld_vl.elf" > "stm32_ld_vl.lst"
+Finished building: stm32_ld_vl.lst
+ 
+Invoking: ARM Sourcery Windows GNU Print Size
+arm-none-eabi-size  --format=berkeley "stm32_ld_vl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1204	      4	    260	   1468	    5bc	stm32_ld_vl.elf
+Finished building: stm32_ld_vl.siz
+ 
+
+**** Build Finished ****

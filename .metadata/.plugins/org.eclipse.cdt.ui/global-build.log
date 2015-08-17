@@ -1,0 +1,239 @@
+
+**** Clean-only build of configuration Debug for project stm32_ld_vl ****
+
+cs-make clean 
+cs-rm -rf  stm32_ld_vl.siz  ./lcd3310/lcd3310.o  ./SPL/src/misc.o ./SPL/src/stm32f10x_adc.o ./SPL/src/stm32f10x_bkp.o ./SPL/src/stm32f10x_can.o ./SPL/src/stm32f10x_cec.o ./SPL/src/stm32f10x_crc.o ./SPL/src/stm32f10x_dac.o ./SPL/src/stm32f10x_dbgmcu.o ./SPL/src/stm32f10x_dma.o ./SPL/src/stm32f10x_exti.o ./SPL/src/stm32f10x_flash.o ./SPL/src/stm32f10x_fsmc.o ./SPL/src/stm32f10x_gpio.o ./SPL/src/stm32f10x_i2c.o ./SPL/src/stm32f10x_iwdg.o ./SPL/src/stm32f10x_pwr.o ./SPL/src/stm32f10x_rcc.o ./SPL/src/stm32f10x_rtc.o ./SPL/src/stm32f10x_sdio.o ./SPL/src/stm32f10x_spi.o ./SPL/src/stm32f10x_tim.o ./SPL/src/stm32f10x_usart.o ./SPL/src/stm32f10x_wwdg.o  ./LCD/stm32_ld_vl/LCD/delay/delay.o  ./LCD/gpio/gpio.o  ./LCD/delay/delay.o  ./LCD/LCD/gpio/gpio.o  ./LCD/lcd3310.o  ./CMSIS/core_cm3.o ./CMSIS/startup_stm32f10x_ld_vl.o ./CMSIS/system_stm32f10x.o  ./main.o  ./lcd3310/lcd3310.d  ./SPL/src/misc.d ./SPL/src/stm32f10x_adc.d ./SPL/src/stm32f10x_bkp.d ./SPL/src/stm32f10x_can.d ./SPL/src/stm32f10x_cec.d ./SPL/src/stm32f10x_crc.d ./SPL/src/stm32f10x_dac.d ./SPL/src/stm32f10x_dbgmcu.d ./SPL/src/stm32f10x_dma.d ./SPL/src/stm32f10x_exti.d ./SPL/src/stm32f10x_flash.d ./SPL/src/stm32f10x_fsmc.d ./SPL/src/stm32f10x_gpio.d ./SPL/src/stm32f10x_i2c.d ./SPL/src/stm32f10x_iwdg.d ./SPL/src/stm32f10x_pwr.d ./SPL/src/stm32f10x_rcc.d ./SPL/src/stm32f10x_rtc.d ./SPL/src/stm32f10x_sdio.d ./SPL/src/stm32f10x_spi.d ./SPL/src/stm32f10x_tim.d ./SPL/src/stm32f10x_usart.d ./SPL/src/stm32f10x_wwdg.d  ./LCD/stm32_ld_vl/LCD/delay/delay.d  ./LCD/gpio/gpio.d  ./LCD/delay/delay.d  ./LCD/LCD/gpio/gpio.d  ./LCD/lcd3310.d  ./CMSIS/core_cm3.d ./CMSIS/system_stm32f10x.d  ./main.d  stm32_ld_vl.hex  stm32_ld_vl.lst  ./CMSIS/startup_stm32f10x_ld_vl.d  stm32_ld_vl.elf
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project stm32_ld_vl ****
+
+cs-make all 
+Building file: ../lcd3310/lcd3310.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="lcd3310/lcd3310.o.lst" -c -fmessage-length=0 -MMD -MP -MF"lcd3310/lcd3310.d" -MT"lcd3310/lcd3310.d" -mcpu=cortex-m3 -mthumb -g3 -o "lcd3310/lcd3310.o" "../lcd3310/lcd3310.c"
+Finished building: ../lcd3310/lcd3310.c
+ 
+Building file: ../SPL/src/misc.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/misc.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/misc.d" -MT"SPL/src/misc.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/misc.o" "../SPL/src/misc.c"
+Finished building: ../SPL/src/misc.c
+ 
+Building file: ../SPL/src/stm32f10x_adc.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_adc.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_adc.d" -MT"SPL/src/stm32f10x_adc.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_adc.o" "../SPL/src/stm32f10x_adc.c"
+Finished building: ../SPL/src/stm32f10x_adc.c
+ 
+Building file: ../SPL/src/stm32f10x_bkp.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_bkp.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_bkp.d" -MT"SPL/src/stm32f10x_bkp.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_bkp.o" "../SPL/src/stm32f10x_bkp.c"
+Finished building: ../SPL/src/stm32f10x_bkp.c
+ 
+Building file: ../SPL/src/stm32f10x_can.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_can.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_can.d" -MT"SPL/src/stm32f10x_can.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_can.o" "../SPL/src/stm32f10x_can.c"
+Finished building: ../SPL/src/stm32f10x_can.c
+ 
+Building file: ../SPL/src/stm32f10x_cec.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_cec.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_cec.d" -MT"SPL/src/stm32f10x_cec.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_cec.o" "../SPL/src/stm32f10x_cec.c"
+Finished building: ../SPL/src/stm32f10x_cec.c
+ 
+Building file: ../SPL/src/stm32f10x_crc.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_crc.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_crc.d" -MT"SPL/src/stm32f10x_crc.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_crc.o" "../SPL/src/stm32f10x_crc.c"
+Finished building: ../SPL/src/stm32f10x_crc.c
+ 
+Building file: ../SPL/src/stm32f10x_dac.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_dac.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_dac.d" -MT"SPL/src/stm32f10x_dac.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_dac.o" "../SPL/src/stm32f10x_dac.c"
+Finished building: ../SPL/src/stm32f10x_dac.c
+ 
+Building file: ../SPL/src/stm32f10x_dbgmcu.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_dbgmcu.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_dbgmcu.d" -MT"SPL/src/stm32f10x_dbgmcu.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_dbgmcu.o" "../SPL/src/stm32f10x_dbgmcu.c"
+Finished building: ../SPL/src/stm32f10x_dbgmcu.c
+ 
+Building file: ../SPL/src/stm32f10x_dma.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_dma.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_dma.d" -MT"SPL/src/stm32f10x_dma.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_dma.o" "../SPL/src/stm32f10x_dma.c"
+Finished building: ../SPL/src/stm32f10x_dma.c
+ 
+Building file: ../SPL/src/stm32f10x_exti.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_exti.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_exti.d" -MT"SPL/src/stm32f10x_exti.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_exti.o" "../SPL/src/stm32f10x_exti.c"
+Finished building: ../SPL/src/stm32f10x_exti.c
+ 
+Building file: ../SPL/src/stm32f10x_flash.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_flash.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_flash.d" -MT"SPL/src/stm32f10x_flash.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_flash.o" "../SPL/src/stm32f10x_flash.c"
+Finished building: ../SPL/src/stm32f10x_flash.c
+ 
+Building file: ../SPL/src/stm32f10x_fsmc.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_fsmc.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_fsmc.d" -MT"SPL/src/stm32f10x_fsmc.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_fsmc.o" "../SPL/src/stm32f10x_fsmc.c"
+Finished building: ../SPL/src/stm32f10x_fsmc.c
+ 
+Building file: ../SPL/src/stm32f10x_gpio.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_gpio.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_gpio.d" -MT"SPL/src/stm32f10x_gpio.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_gpio.o" "../SPL/src/stm32f10x_gpio.c"
+Finished building: ../SPL/src/stm32f10x_gpio.c
+ 
+Building file: ../SPL/src/stm32f10x_i2c.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_i2c.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_i2c.d" -MT"SPL/src/stm32f10x_i2c.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_i2c.o" "../SPL/src/stm32f10x_i2c.c"
+Finished building: ../SPL/src/stm32f10x_i2c.c
+ 
+Building file: ../SPL/src/stm32f10x_iwdg.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_iwdg.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_iwdg.d" -MT"SPL/src/stm32f10x_iwdg.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_iwdg.o" "../SPL/src/stm32f10x_iwdg.c"
+Finished building: ../SPL/src/stm32f10x_iwdg.c
+ 
+Building file: ../SPL/src/stm32f10x_pwr.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_pwr.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_pwr.d" -MT"SPL/src/stm32f10x_pwr.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_pwr.o" "../SPL/src/stm32f10x_pwr.c"
+Finished building: ../SPL/src/stm32f10x_pwr.c
+ 
+Building file: ../SPL/src/stm32f10x_rcc.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_rcc.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_rcc.d" -MT"SPL/src/stm32f10x_rcc.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_rcc.o" "../SPL/src/stm32f10x_rcc.c"
+Finished building: ../SPL/src/stm32f10x_rcc.c
+ 
+Building file: ../SPL/src/stm32f10x_rtc.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_rtc.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_rtc.d" -MT"SPL/src/stm32f10x_rtc.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_rtc.o" "../SPL/src/stm32f10x_rtc.c"
+Finished building: ../SPL/src/stm32f10x_rtc.c
+ 
+Building file: ../SPL/src/stm32f10x_sdio.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_sdio.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_sdio.d" -MT"SPL/src/stm32f10x_sdio.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_sdio.o" "../SPL/src/stm32f10x_sdio.c"
+Finished building: ../SPL/src/stm32f10x_sdio.c
+ 
+Building file: ../SPL/src/stm32f10x_spi.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_spi.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_spi.d" -MT"SPL/src/stm32f10x_spi.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_spi.o" "../SPL/src/stm32f10x_spi.c"
+Finished building: ../SPL/src/stm32f10x_spi.c
+ 
+Building file: ../SPL/src/stm32f10x_tim.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_tim.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_tim.d" -MT"SPL/src/stm32f10x_tim.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_tim.o" "../SPL/src/stm32f10x_tim.c"
+Finished building: ../SPL/src/stm32f10x_tim.c
+ 
+Building file: ../SPL/src/stm32f10x_usart.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_usart.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_usart.d" -MT"SPL/src/stm32f10x_usart.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_usart.o" "../SPL/src/stm32f10x_usart.c"
+Finished building: ../SPL/src/stm32f10x_usart.c
+ 
+Building file: ../SPL/src/stm32f10x_wwdg.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="SPL/src/stm32f10x_wwdg.o.lst" -c -fmessage-length=0 -MMD -MP -MF"SPL/src/stm32f10x_wwdg.d" -MT"SPL/src/stm32f10x_wwdg.d" -mcpu=cortex-m3 -mthumb -g3 -o "SPL/src/stm32f10x_wwdg.o" "../SPL/src/stm32f10x_wwdg.c"
+Finished building: ../SPL/src/stm32f10x_wwdg.c
+ 
+Building file: ../CMSIS/core_cm3.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="CMSIS/core_cm3.o.lst" -c -fmessage-length=0 -MMD -MP -MF"CMSIS/core_cm3.d" -MT"CMSIS/core_cm3.d" -mcpu=cortex-m3 -mthumb -g3 -o "CMSIS/core_cm3.o" "../CMSIS/core_cm3.c"
+Finished building: ../CMSIS/core_cm3.c
+ 
+Building file: ../CMSIS/startup_stm32f10x_ld_vl.S
+Invoking: ARM Sourcery Windows GCC Assembler
+arm-none-eabi-gcc -x assembler-with-cpp -Wall -Wa,-adhlns="CMSIS/startup_stm32f10x_ld_vl.o.lst" -c -fmessage-length=0 -MMD -MP -MF"CMSIS/startup_stm32f10x_ld_vl.d" -MT"CMSIS/startup_stm32f10x_ld_vl.d" -mcpu=cortex-m3 -mthumb -g3 -o "CMSIS/startup_stm32f10x_ld_vl.o" "../CMSIS/startup_stm32f10x_ld_vl.S"
+Finished building: ../CMSIS/startup_stm32f10x_ld_vl.S
+ 
+Building file: ../CMSIS/system_stm32f10x.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="CMSIS/system_stm32f10x.o.lst" -c -fmessage-length=0 -MMD -MP -MF"CMSIS/system_stm32f10x.d" -MT"CMSIS/system_stm32f10x.d" -mcpu=cortex-m3 -mthumb -g3 -o "CMSIS/system_stm32f10x.o" "../CMSIS/system_stm32f10x.c"
+Finished building: ../CMSIS/system_stm32f10x.c
+ 
+Building file: ../main.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="main.o.lst" -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -mcpu=cortex-m3 -mthumb -g3 -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stm32_ld_vl.elf
+Invoking: ARM Sourcery Windows GCC C Linker
+arm-none-eabi-gcc -T"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS\stm32f100c4.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"stm32_ld_vl.map" -mcpu=cortex-m3 -mthumb -g3 -o "stm32_ld_vl.elf"  ./lcd3310/lcd3310.o  ./SPL/src/misc.o ./SPL/src/stm32f10x_adc.o ./SPL/src/stm32f10x_bkp.o ./SPL/src/stm32f10x_can.o ./SPL/src/stm32f10x_cec.o ./SPL/src/stm32f10x_crc.o ./SPL/src/stm32f10x_dac.o ./SPL/src/stm32f10x_dbgmcu.o ./SPL/src/stm32f10x_dma.o ./SPL/src/stm32f10x_exti.o ./SPL/src/stm32f10x_flash.o ./SPL/src/stm32f10x_fsmc.o ./SPL/src/stm32f10x_gpio.o ./SPL/src/stm32f10x_i2c.o ./SPL/src/stm32f10x_iwdg.o ./SPL/src/stm32f10x_pwr.o ./SPL/src/stm32f10x_rcc.o ./SPL/src/stm32f10x_rtc.o ./SPL/src/stm32f10x_sdio.o ./SPL/src/stm32f10x_spi.o ./SPL/src/stm32f10x_tim.o ./SPL/src/stm32f10x_usart.o ./SPL/src/stm32f10x_wwdg.o  ./CMSIS/core_cm3.o ./CMSIS/startup_stm32f10x_ld_vl.o ./CMSIS/system_stm32f10x.o  ./main.o   
+Finished building target: stm32_ld_vl.elf
+ 
+Invoking: ARM Sourcery Windows GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "stm32_ld_vl.elf"  "stm32_ld_vl.hex"
+Finished building: stm32_ld_vl.hex
+ 
+Invoking: ARM Sourcery Windows GNU Create Listing
+arm-none-eabi-objdump -h -S "stm32_ld_vl.elf" > "stm32_ld_vl.lst"
+Finished building: stm32_ld_vl.lst
+ 
+Invoking: ARM Sourcery Windows GNU Print Size
+arm-none-eabi-size  --format=berkeley "stm32_ld_vl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1204	      4	    260	   1468	    5bc	stm32_ld_vl.elf
+Finished building: stm32_ld_vl.siz
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project stm32_ld_vl ****
+
+cs-make all 
+Invoking: ARM Sourcery Windows GNU Print Size
+arm-none-eabi-size  --format=berkeley "stm32_ld_vl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1204	      4	    260	   1468	    5bc	stm32_ld_vl.elf
+Finished building: stm32_ld_vl.siz
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project stm32_ld_vl ****
+
+cs-make all 
+Invoking: ARM Sourcery Windows GNU Print Size
+arm-none-eabi-size  --format=berkeley "stm32_ld_vl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1204	      4	    260	   1468	    5bc	stm32_ld_vl.elf
+Finished building: stm32_ld_vl.siz
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project stm32_ld_vl ****
+
+cs-make all 
+Invoking: ARM Sourcery Windows GNU Print Size
+arm-none-eabi-size  --format=berkeley "stm32_ld_vl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1204	      4	    260	   1468	    5bc	stm32_ld_vl.elf
+Finished building: stm32_ld_vl.siz
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project stm32_ld_vl ****
+
+cs-make all 
+Building file: ../lcd3310/lcd3310.c
+Invoking: ARM Sourcery Windows GCC C Compiler
+arm-none-eabi-gcc -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS" -I"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\SPL\inc" -O0 -ffunction-sections -fdata-sections -Wall -Wa,-adhlns="lcd3310/lcd3310.o.lst" -c -fmessage-length=0 -MMD -MP -MF"lcd3310/lcd3310.d" -MT"lcd3310/lcd3310.d" -mcpu=cortex-m3 -mthumb -g3 -o "lcd3310/lcd3310.o" "../lcd3310/lcd3310.c"
+Finished building: ../lcd3310/lcd3310.c
+ 
+Building target: stm32_ld_vl.elf
+Invoking: ARM Sourcery Windows GCC C Linker
+arm-none-eabi-gcc -T"D:\Discovery\Test_CopyWS160815\stm32_ld_vl\CMSIS\stm32f100c4.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"stm32_ld_vl.map" -mcpu=cortex-m3 -mthumb -g3 -o "stm32_ld_vl.elf"  ./lcd3310/lcd3310.o  ./SPL/src/misc.o ./SPL/src/stm32f10x_adc.o ./SPL/src/stm32f10x_bkp.o ./SPL/src/stm32f10x_can.o ./SPL/src/stm32f10x_cec.o ./SPL/src/stm32f10x_crc.o ./SPL/src/stm32f10x_dac.o ./SPL/src/stm32f10x_dbgmcu.o ./SPL/src/stm32f10x_dma.o ./SPL/src/stm32f10x_exti.o ./SPL/src/stm32f10x_flash.o ./SPL/src/stm32f10x_fsmc.o ./SPL/src/stm32f10x_gpio.o ./SPL/src/stm32f10x_i2c.o ./SPL/src/stm32f10x_iwdg.o ./SPL/src/stm32f10x_pwr.o ./SPL/src/stm32f10x_rcc.o ./SPL/src/stm32f10x_rtc.o ./SPL/src/stm32f10x_sdio.o ./SPL/src/stm32f10x_spi.o ./SPL/src/stm32f10x_tim.o ./SPL/src/stm32f10x_usart.o ./SPL/src/stm32f10x_wwdg.o  ./CMSIS/core_cm3.o ./CMSIS/startup_stm32f10x_ld_vl.o ./CMSIS/system_stm32f10x.o  ./main.o   
+Finished building target: stm32_ld_vl.elf
+ 
+Invoking: ARM Sourcery Windows GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "stm32_ld_vl.elf"  "stm32_ld_vl.hex"
+Finished building: stm32_ld_vl.hex
+ 
+Invoking: ARM Sourcery Windows GNU Create Listing
+arm-none-eabi-objdump -h -S "stm32_ld_vl.elf" > "stm32_ld_vl.lst"
+Finished building: stm32_ld_vl.lst
+ 
+Invoking: ARM Sourcery Windows GNU Print Size
+arm-none-eabi-size  --format=berkeley "stm32_ld_vl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1204	      4	    260	   1468	    5bc	stm32_ld_vl.elf
+Finished building: stm32_ld_vl.siz
+ 
+
+**** Build Finished ****
